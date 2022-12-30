@@ -2,7 +2,7 @@ function fuc() {
     let pop = window.pageYOffset;
     document.getElementById('bigtitle').style.backdropFilter = `blur(${pop/150}px)`;
     document.getElementById('bigtitle').style.filter = `blur(${pop/200}px)`;
-    document.getElementById('bigtitle').style.fontSize = `${50-pop/100}px`;
+    document.getElementById('bigtitle').style.fontSize = `${12-pop/280}vw`;
     let inn = window.innerHeight
     document.getElementById('s2').style.borderTopLeftRadius = `${16-pop/(inn/30)}px`;
     document.getElementById('s2').style.borderTopRightRadius = `${16-pop/(inn/30)}px`;
